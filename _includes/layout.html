@@ -15,6 +15,13 @@
       color: blue;
     }
 
+    iframe {
+      width: 100%;
+    }
+    img {
+      max-width: 100%;
+    }
+
     nav.main {
       text-align: center;
     }
@@ -51,6 +58,8 @@
 
   </style>
 
+  <script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
   <!-- Dashly BEGIN -->
   <script type="text/javascript">
   !function(){function t(t,e){return function(){window.dashlyasync.push(t,arguments)}}if("undefined"==typeof dashly){var e=document.createElement("script");e.type="text/javascript",e.async=!0,e.src="//cdn.dashly.app/api.min.js",document.getElementsByTagName("head")[0].appendChild(e),window.dashly={},window.dashlyasync=[],dashly.settings={};for(var n=["connect","track","identify","auth","oth","onReady","addCallback","removeCallback","trackMessageInteraction"],a=0;a<n.length;a++)dashly[n[a]]=t(n[a])}}(),dashly.connect("2957-0d6e93cc540268df82793f5bfc2");
@@ -62,6 +71,7 @@
   <nav class="main">
     <a href="/">Home</a>
     <a href="/README/">Content</a>
+    <a data-netlify-identity-button></a>
   </nav>
   <main>
 
