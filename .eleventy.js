@@ -11,7 +11,7 @@ module.exports = function(eleventyConfig) {
 
   // Folders to copy into output.
   eleventyConfig.addPassthroughCopy("images");
-  eleventyConfig.addPassthroughCopy("css");
+  eleventyConfig.addPassthroughCopy("*.css");
   eleventyConfig.addPassthroughCopy("_redirects");
   eleventyConfig.addPassthroughCopy("*/*.pdf");
 

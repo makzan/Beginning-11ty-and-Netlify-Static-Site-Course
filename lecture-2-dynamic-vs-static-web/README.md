@@ -2,13 +2,8 @@
 title: Lecture 2—Dynamic vs. Static web
 ---
 
-In this section, we will learn about:
 
-- ✓ What are clients and servers
-- ✓ Static website vs. dynamic website.
-- ✓ Server-less website
-
-What are clients and servers?
+## What are clients and servers?
 
 <div class="action callout">
 
@@ -53,6 +48,13 @@ Which of the following is NOT client typically?
 1. Computers in data center
 1. Tablets at home
 
+<details>
+  <summary>Answer</summary>
+
+  _Computers in data center_ is not client. Those computers are servers because they serve the content to consumers.
+
+</details>
+
 </div>
 
 <div class="question callout">
@@ -63,6 +65,13 @@ Which of the following is server typically?
 1. Mobile phones that data center staffs bring
 1. Computers that serve web site content
 1. Web browsers such as Firefox and Google Chrome
+
+<details>
+  <summary>Answer</summary>
+
+  _Computers that serve web site content_ is server typically.
+
+</details>
 
 </div>
 
@@ -89,14 +98,27 @@ Please read the following link with the benefits of creating static websites.
 https://www.netlify.com/blog/2016/05/18/9-reasons-your-site-should-be-static/
 
 
-From the above link, which is not listed as one of the reasons to creating static websites?
-- Static websites are more secure
-- Static websites cost more hosting money
-- Static websites create a smaller footprint
-- Static websites have fewer chances of database error
+<div class="question callout">
+
+  From the above link, which is not listed as one of the reasons to creating static websites?
+
+  1. Static websites are more secure
+  1. Static websites cost more hosting money
+  1. Static websites create a smaller footprint
+  1. Static websites have fewer chances of database error
+
+  <details>
+    <summary>Answer</summary>
+
+    _Static websites cost more hosting money._
+
+  </details>
+
+</div>
 
 
-What needs to be server-side processed?
+## What needs to be server-side processed?
+
 Logic that needs to be calculated, for example, login logic, personalized information such as email inbox and social network feed, or simply database operations that allows storing and updating web site content.
 
 These logics can be done via server aide programming languages, such as PHP, Ruby, Python or even server-side JavaScript (NodeJS).
@@ -106,12 +128,24 @@ Please read the following link that compares static website and dynamic website.
 https://www.geeksforgeeks.org/static-vs-dynamic-website/
 
 
-What is true about dynamic website?
- Serving dynamic website is faster than static website.
- Content is rendered in run time by server.
- Both dynamic website and static website has similar functionalities.
- Usually, static website has more functionalities than dynamic websites.
+<div class="question callout">
 
+  What is true about dynamic website?
+
+  1. Serving dynamic website is faster than static website.
+  1. Content is rendered in run time by server.
+  1. Both dynamic website and static website has similar functionalities.
+  1. Usually, static website has more functionalities than dynamic websites.
+
+  <details>
+    <summary>Answer</summary>
+
+    _Content is rendered in run time by server._
+
+  </details>
+</div>
+
+## How about Wordpress?
 
 WordPress is one of the most used web content manage system.
 
@@ -129,12 +163,21 @@ https://www.gatsbyjs.com/guides/wordpress/
 
 
 <div class="question callout">
+
 Which of the following is true about Wordpress?
 
-- WordPress requires database to work
-- WordPress is used in around 36% of websites.
-- Wordpress provides plenty of plugins to do many different functionalities.
-- All of the choices.
+1. WordPress requires database to work
+1. WordPress is used in around 36% of websites.
+1. Wordpress provides plenty of plugins to do many different functionalities.
+1. All of the choices.
+
+  <details>
+    <summary>Answer</summary>
+
+    _All of the choices._
+
+  </details>
+
 </div>
 
 
@@ -164,18 +207,42 @@ https://www.netlify.com/products/functions/
 https://docs.netlify.com/visitor-access/identity/
 Optional: The deep technical way to create forms Amazon Web Service.
 
+<div class="question callout">
+  Do we need server logic to process submitted forms from a web page?
 
-Do we need server logic to process submitted forms from a web page?
- Yes
- No
+  - Yes
+  - No
+
+  <details>
+    <summary>Answer</summary>
+
+    _Yes._
+
+  </details>
 
 
-Do we need server logic to process login and authentication?
- Yes
- No
+</div>
 
 
-Google Sheets and Static Sites
+<div class="question callout">
+  Do we need server logic to process login and authentication?
+
+  - Yes
+  - No
+
+  <details>
+    <summary>Answer</summary>
+
+    _Yes._
+
+  </details>
+
+
+</div>
+
+
+## Google Sheets and Static Sites
+
 By using some creativities, we can even use Google Sheets, TableTopJS and Eleventy site generator to create a static site with content powered from Google Sheet.
 
 https://css-tricks.com/creating-an-editable-site-with-google-sheets-and-eleventy/
@@ -183,7 +250,8 @@ https://css-tricks.com/creating-an-editable-site-with-google-sheets-and-eleventy
 The TableTop.js converts a published Google Sheet into JSON API for the website to fetch.
 
 
-JAM Stack
+## JAM Stack
+
 We call this new kind of static website with functionaries JAM Stack, which stands for JavaScript, API, and Markup.
 
 https://jamstack.org/
