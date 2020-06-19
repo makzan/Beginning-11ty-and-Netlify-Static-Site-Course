@@ -15,18 +15,31 @@ https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_
 Web browsers and our devices are client-side.
 The data center/computers that process our request and serve the web content are the servers.
 
+<div class="question callout">
 Which of the following is typically client?
 - Computers in the data center
 - Computers that store the whole website
 - Computers in classrooms
 - Computers that allow others to download files
+<details>
+  <summary>Answer</summary>
+  _Computers in classrooms_. They are for consumers to use.
 
+  The followings are servers that usually consumers cannot reach.
 
+  - Computers in the data center
+  - Computers that store the whole website
+  - Computers that allow others to download files
+</details>
+</div>
+
+<div class="question callout">
 Which of the following is NOT client typically?
 - Mobile phones
 - Laptop computers
 - Computers in data center
 - Tablets at home
+</div>
 
 
 Which of the following is server typically?
