@@ -1,7 +1,6 @@
-# Using form
-
-
-
+---
+title: Using form
+---
 
 ## Netlify Form
 

@@ -1,11 +1,17 @@
-# Beginning static site deployment with Netlify
+---
+title: Beginning static site deployment with Netlify
+---
 
-https://vimeo.com/399372750
+
 
 In this section, we try to deploy a simple one-page web page on Netlify by dragging the folder onto the deployment area.
 
 
-[Download PDF](./deploying-with-netlify.pdf)
+<iframe src="https://player.vimeo.com/video/399372750?color=fad749&byline=0&portrait=0" width="640" height="400" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<p><a href="https://vimeo.com/399372750">Introducing Netlify</a> from <a href="https://vimeo.com/makzan">Thomas Mak</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
+
+[Download PDF](/lecture-1-introducing-netlify/deploying-with-netlify.pdf)
 
 
 ---
@@ -38,4 +44,3 @@ We can go beyond static by adding the following technologies:
 - mak.la Short URL redirection
 
 
-<iframe src="https://slides.com/makzan/connect-github-and-netlify/embed" width="576" height="420" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>

@@ -1,4 +1,6 @@
-# Lecture 2—Dynamic vs. Static web
+---
+title: Lecture 2—Dynamic vs. Static web
+---
 
 In this section, we will learn about:
 
@@ -8,7 +10,11 @@ In this section, we will learn about:
 
 What are clients and servers?
 
-https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works
+<div class="action callout">
+
+  Read: <a href='https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works' target='_blank'>How the Web works by MDN</a>
+
+</div>
 
 
 
@@ -19,10 +25,10 @@ The data center/computers that process our request and serve the web content are
 
 Which of the following is typically client?
 
-- Computers in the data center
-- Computers that store the whole website
-- Computers in classrooms
-- Computers that allow others to download files
+1. Computers in the data center
+2. Computers that store the whole website
+3. Computers in classrooms
+4. Computers that allow others to download files
 
 <details>
   <summary>Answer</summary>
@@ -42,22 +48,27 @@ Which of the following is typically client?
 
 Which of the following is NOT client typically?
 
-- Mobile phones
-- Laptop computers
-- Computers in data center
-- Tablets at home
+1. Mobile phones
+1. Laptop computers
+1. Computers in data center
+1. Tablets at home
+
+</div>
+
+<div class="question callout">
+
+Which of the following is server typically?
+
+1. Laptop computers in company
+1. Mobile phones that data center staffs bring
+1. Computers that serve web site content
+1. Web browsers such as Firefox and Google Chrome
 
 </div>
 
 
-Which of the following is server typically?
-- Laptop computers in company
-- Mobile phones that data center staffs bring
-- Computers that serve web site content
-- Web browsers such as Firefox and Google Chrome
-
-
 Web server that serves static files
+
 Files that don’t need to be processed before sending back. For example, images files, HTML files, CSS files.
 
 Static site is fast because:

@@ -1,4 +1,6 @@
-# Connect Github and Netlify
+---
+title: Connect Github and Netlify
+---
 
 <iframe src="https://slides.com/makzan/connect-github-and-netlify/embed" width="576" height="420" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 

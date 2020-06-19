@@ -1,4 +1,7 @@
-# Beginning 11ty and Netlify Static Site Course
+---
+title: Beginning 11ty and Netlify Static Site Course
+layout: layout
+---
 
 Author: Makzan
 

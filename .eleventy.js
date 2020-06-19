@@ -13,5 +13,20 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("images");
   eleventyConfig.addPassthroughCopy("css");
   eleventyConfig.addPassthroughCopy("_redirects");
-  eleventyConfig.addPassthroughCopy("**/*.pdf");
+  eleventyConfig.addPassthroughCopy("*/*.pdf");
+
+
+  const pluginTOC = require('eleventy-plugin-nesting-toc');
+  eleventyConfig.addPlugin(pluginTOC, {tags: ['h2']});
+
+  const markdownIt = require('markdown-it');
+  const markdownItAnchor = require('markdown-it-anchor');
+  eleventyConfig.setLibrary("md",
+      markdownIt({
+          html: true,
+          linkify: true,
+          typographer: true,
+      }).use(markdownItAnchor, {})
+  );
+
 };

@@ -1,4 +1,7 @@
-# Beginning 11ty and Netlify Static Site
+---
+title: Beginning 11ty and Netlify Static Site
+layout: layout
+---
 
 
 [→ Enroll into the course](/README/)

@@ -11,31 +11,62 @@
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     }
 
-    nav {
+    a {
+      color: blue;
+    }
+
+    nav.main {
       text-align: center;
     }
 
     main {
       max-width: 700px;
-      margin: auto;
+      margin: 2em auto;
+
+      padding: 1.5em;
+      padding-bottom: 2em;
+      box-shadow: -0.4rem 0.4rem 2rem rgba(0,0,0,0.1);
+      background: #fff;
+      border-radius: 2px;
     }
 
     .callout {
-      background: #ffffce linear-gradient(to right, #ffffa0, #ffffce);
+      background: #ffffce linear-gradient(to right, #ffffe5, #fffff9);
       padding: .5em;
       border-radius: 5px;
       border: 3px solid gold;
       margin: 1em 0;
     }
+    .question.callout ol {
+      list-style-type: upper-latin;
+    }
+    .question.callout::before {
+      content: 'Question';
+      font-weight: bold;
+    }
+    .action.callout::before {
+      content: 'Action';
+      font-weight: bold;
+    }
 
   </style>
+
+  <!-- Dashly BEGIN -->
+  <script type="text/javascript">
+  !function(){function t(t,e){return function(){window.dashlyasync.push(t,arguments)}}if("undefined"==typeof dashly){var e=document.createElement("script");e.type="text/javascript",e.async=!0,e.src="//cdn.dashly.app/api.min.js",document.getElementsByTagName("head")[0].appendChild(e),window.dashly={},window.dashlyasync=[],dashly.settings={};for(var n=["connect","track","identify","auth","oth","onReady","addCallback","removeCallback","trackMessageInteraction"],a=0;a<n.length;a++)dashly[n[a]]=t(n[a])}}(),dashly.connect("2957-0d6e93cc540268df82793f5bfc2");
+  </script>
+  <!-- Dashly END -->
+
 </head>
 <body>
-  <nav>
+  <nav class="main">
     <a href="/">Home</a>
     <a href="/README/">Content</a>
   </nav>
   <main>
+
+    <h1>{{ title }}</h1>
+
     {{ content }}
 
     <hr>
