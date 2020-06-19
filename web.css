@@ -54,21 +54,33 @@ main {
   border: 3px solid #d5d5d5;
   margin: 1em 0;
 }
+.checkpoint.callout {
+  border-color: yellowgreen;
+}
 .callout:hover {
   background: #ffffe5 linear-gradient(to right, #ffffe5, #fffff9);
   border-color: gold;
 }
+.checkpoint.callout:hover {
+  border-color: green;
+}
 .question.callout ol {
   list-style-type: upper-latin;
 }
+.callout::before {
+  font-weight: bold;
+}
 .question.callout::before {
   content: 'Question';
-  font-weight: bold;
 }
 .action.callout::before {
   content: 'Action';
-  font-weight: bold;
 }
+.checkpoint.callout::before {
+  content: '✅ Check Point';
+  font-size: 1.5em;
+}
+
 
 details summary {
   cursor: pointer;

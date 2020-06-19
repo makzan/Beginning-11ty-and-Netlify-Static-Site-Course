@@ -76,7 +76,7 @@ Which of the following is server typically?
 </div>
 
 
-Web server that serves static files
+## Web server that serves static files
 
 Files that don’t need to be processed before sending back. For example, images files, HTML files, CSS files.
 
@@ -177,6 +177,12 @@ Which of the following is true about Wordpress?
     _All of the choices._
 
   </details>
+
+</div>
+
+<div class="checkpoint callout">
+
+  Now that we have learned what is server-side and client-side. We also learned how traditional web server works. Next, we explore how we can pre-build the web site into static files outputs.
 
 </div>
 
