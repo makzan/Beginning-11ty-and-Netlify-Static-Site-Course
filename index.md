@@ -1,3 +1,3 @@
 # Beginning 11ty and Netlify Static Site
 
-[Enroll into the cuorse](/README/)
+[Enroll into the course](/README/)
