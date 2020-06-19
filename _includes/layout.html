@@ -1,0 +1,54 @@
+<html lang="en-US">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <link rel="alternate" href="{{ metadata.feed.path | url }}" type="application/atom+xml" title="{{ metadata.title }}">
+  <title>{{ title | default: "Home"}} | Static Site Course</title>
+
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    }
+
+    nav {
+      text-align: center;
+    }
+
+    main {
+      max-width: 700px;
+      margin: auto;
+    }
+
+    .callout {
+      background: #ffffce linear-gradient(to right, #ffffa0, #ffffce);
+      padding: .5em;
+      border-radius: 5px;
+    }
+
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="/">Home</a>
+    <a href="/README/">Content</a>
+  </nav>
+  <main>
+    {{ content }}
+
+    <hr>
+
+    <h2>Comments</h2>
+
+    <script src="https://utteranc.es/client.js"
+        repo="makzan/Beginning-11ty-and-Netlify-Static-Site-Course"
+        issue-term="title"
+        label="Comment"
+        theme="preferred-color-scheme"
+        crossorigin="anonymous"
+        async>
+    </script>
+
+
+  </main>
+</body>

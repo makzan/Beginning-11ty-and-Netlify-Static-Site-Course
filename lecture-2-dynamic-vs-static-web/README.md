@@ -1,4 +1,4 @@
-# Static websites vs. Dynamic websites
+# Lecture 2—Dynamic vs. Static web
 
 In this section, we will learn about:
 
@@ -96,24 +96,33 @@ Some static site generators also allows working together with Wordpress. Gatsby 
 https://www.gatsbyjs.com/guides/wordpress/
 
 
+<div class="question callout">
 Which of the following is true about Wordpress?
- WordPress requires database to work
- WordPress is used in around 36% of websites.
- Wordpress provides plenty of plugins to do many different functionalities.
- All of the choices.
+
+- WordPress requires database to work
+- WordPress is used in around 36% of websites.
+- Wordpress provides plenty of plugins to do many different functionalities.
+- All of the choices.
+</div>
 
 
-One page, two pages, many pages with Static Site generators
+## One page, two pages, many pages with Static Site generators
+
 Static websites don’t need to be single paged. Static is the outcome of the files. The creation process can be as dynamic as needed. We can then use program to process the files into static files for static hosting.
 
 https://www.staticgen.com/
 
 
-What is the top 6 static site generators according to staticgen.com?
+What is the top 8 static site generators according to staticgen.com?
 
 
 
-Server-less website
+---
+
+
+## Server-less website
+
+
 What if we need some server functionalities while serving the website statically?
 
 Take Netlify as an example, they provide logins, forms, and functions,
