@@ -8,10 +8,41 @@
 
 Documentation: https://docs.netlify.com/forms/setup/#html-forms
 
+Pros & Cons
+
+Pros
+
+- Easy to use: Just create a form and Netlify handles everything for us
+- Anti-spam handled.
+- Support file upload.
+
+Cons
+
+- 100 form submissions per month
+- External service = external branding
+- No after-submission redirection
+- Not supporting multiple file input.
+
 
 ## Form-to-email service
 
+Example: FormSubmit.co
+
 Documentation: https://formsubmit.co/
+
+Pros
+
+- Easy to use: Post form to https://formsubmit.co/your_email@example.com and activate it to use.
+- Anti-spam handled.
+- After-submission redirection.
+- Support file upload.
+- Free.
+
+Cons
+
+- External service = external branding
+- Not supporting multiple file input.
+
 
 
 
