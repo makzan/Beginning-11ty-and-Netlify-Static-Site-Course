@@ -4,7 +4,7 @@ Author: Makzan
 
 In this course, we will
 
-1. Introducing Netlify
+1. [Introducing Netlify](/lecture-1-introducing-netlify/)
 2. How the web works
 3. A glimpse on API call
 4. Using GitHub Desktop
