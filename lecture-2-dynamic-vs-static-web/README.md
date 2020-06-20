@@ -5,6 +5,9 @@ title: Lecture 2—Dynamic vs. Static web
 
 ## What are clients and servers?
 
+
+
+
 <div class="action callout">
 
   Read: <a href='https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works' target='_blank'>How the Web works by MDN</a>
@@ -26,15 +29,15 @@ Which of the following is typically client?
 4. Computers that allow others to download files
 
 <details>
-  <summary>Answer</summary>
+<summary>Answer</summary>
 
-  _Computers in classrooms_. They are for consumers to use.
+_Computers in classrooms_. They are for consumers to use.
 
-  The followings are servers that usually consumers cannot reach.
+The followings are servers that usually consumers cannot reach.
 
-  - Computers in the data center
-  - Computers that store the whole website
-  - Computers that allow others to download files
+- Computers in the data center
+- Computers that store the whole website
+- Computers that allow others to download files
 
 </details>
 </div>
@@ -49,9 +52,9 @@ Which of the following is NOT client typically?
 1. Tablets at home
 
 <details>
-  <summary>Answer</summary>
+<summary>Answer</summary>
 
-  _Computers in data center_ is not client. Those computers are servers because they serve the content to consumers.
+_Computers in data center_ is not client. Those computers are servers because they serve the content to consumers.
 
 </details>
 
@@ -67,9 +70,9 @@ Which of the following is server typically?
 1. Web browsers such as Firefox and Google Chrome
 
 <details>
-  <summary>Answer</summary>
+<summary>Answer</summary>
 
-  _Computers that serve web site content_ is server typically.
+_Computers that serve web site content_ is server typically.
 
 </details>
 
@@ -100,19 +103,19 @@ https://www.netlify.com/blog/2016/05/18/9-reasons-your-site-should-be-static/
 
 <div class="question callout">
 
-  From the above link, which is not listed as one of the reasons to creating static websites?
+From the above link, which is not listed as one of the reasons to creating static websites?
 
-  1. Static websites are more secure
-  1. Static websites cost more hosting money
-  1. Static websites create a smaller footprint
-  1. Static websites have fewer chances of database error
+1. Static websites are more secure
+1. Static websites cost more hosting money
+1. Static websites create a smaller footprint
+1. Static websites have fewer chances of database error
 
-  <details>
-    <summary>Answer</summary>
+<details>
+<summary>Answer</summary>
 
-    _Static websites cost more hosting money._
+_Static websites cost more hosting money._
 
-  </details>
+</details>
 
 </div>
 
@@ -130,19 +133,19 @@ https://www.geeksforgeeks.org/static-vs-dynamic-website/
 
 <div class="question callout">
 
-  What is true about dynamic website?
+What is true about dynamic website?
 
-  1. Serving dynamic website is faster than static website.
-  1. Content is rendered in run time by server.
-  1. Both dynamic website and static website has similar functionalities.
-  1. Usually, static website has more functionalities than dynamic websites.
+1. Serving dynamic website is faster than static website.
+1. Content is rendered in run time by server.
+1. Both dynamic website and static website has similar functionalities.
+1. Usually, static website has more functionalities than dynamic websites.
 
-  <details>
-    <summary>Answer</summary>
+<details>
+<summary>Answer</summary>
 
-    _Content is rendered in run time by server._
+_Content is rendered in run time by server._
 
-  </details>
+</details>
 </div>
 
 ## How about Wordpress?
@@ -171,12 +174,12 @@ Which of the following is true about Wordpress?
 1. Wordpress provides plenty of plugins to do many different functionalities.
 1. All of the choices.
 
-  <details>
-    <summary>Answer</summary>
+<details>
+<summary>Answer</summary>
 
-    _All of the choices._
+_All of the choices._
 
-  </details>
+</details>
 
 </div>
 
@@ -214,34 +217,36 @@ https://docs.netlify.com/visitor-access/identity/
 Optional: The deep technical way to create forms Amazon Web Service.
 
 <div class="question callout">
-  Do we need server logic to process submitted forms from a web page?
 
-  - Yes
-  - No
+Do we need server logic to process submitted forms from a web page?
 
-  <details>
-    <summary>Answer</summary>
+- Yes
+- No
 
-    _Yes._
+<details>
+<summary>Answer</summary>
 
-  </details>
+_Yes._
+
+</details>
 
 
 </div>
 
 
 <div class="question callout">
-  Do we need server logic to process login and authentication?
 
-  - Yes
-  - No
+Do we need server logic to process login and authentication?
 
-  <details>
-    <summary>Answer</summary>
+- Yes
+- No
 
-    _Yes._
+<details>
+<summary>Answer</summary>
 
-  </details>
+_Yes._
+
+</details>
 
 
 </div>
