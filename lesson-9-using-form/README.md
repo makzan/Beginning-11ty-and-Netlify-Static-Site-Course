@@ -1,9 +1,15 @@
 ---
-title: Using form
+title: Lesson 9–Using form
 previous: /lesson-8
 ---
 
-## Netlify Form
+## We need server-side to handle form submissions.
+
+Static files are for `GET` requests, which browser _gets_ the files from static file server. For `POST`, the data is _post_ to server and then need further logic and computation power to process it.
+
+We will explore both Netlify form and form-to-email services.
+
+### Netlify Form
 
 
 Documentation: https://docs.netlify.com/forms/setup/#html-forms
@@ -24,7 +30,7 @@ Cons
 - Not supporting multiple file input.
 
 
-## Form-to-email service
+### Form-to-email service
 
 Example: FormSubmit.co
 
@@ -46,9 +52,11 @@ Cons
 
 
 
-## Build your own form by using Lambda function
+### Build your own form by using Lambda function
 
-More on that later
+An alternative way is to build our own form handling via Lambda function.
+
+We will cover more on that later.
 
 
 ## Tackling spams
@@ -62,7 +70,7 @@ Netlify form and those form-to-email services usually come with built-in recapch
 
 ### Netlify Form
 
-```lang-html
+```html
 <form name="contact" method="POST" data-netlify="true" enctype="multipart/form-data">
   <p>
     <label>
@@ -97,7 +105,7 @@ Netlify form and those form-to-email services usually come with built-in recapch
 
 ### FormSubmit.co code example
 
-```lang-html
+``` html
 <form name="contact" method="POST" action="https://formsubmit.co/demo@makzan.net" enctype="multipart/form-data">
   <p>
     <label>

@@ -17,7 +17,7 @@ module.exports = function(eleventyConfig) {
 
 
   const pluginTOC = require('eleventy-plugin-nesting-toc');
-  eleventyConfig.addPlugin(pluginTOC, {tags: ['h2']});
+  eleventyConfig.addPlugin(pluginTOC, {tags: ['h2','h3']});
 
   const markdownIt = require('markdown-it');
   const markdownItAnchor = require('markdown-it-anchor');
@@ -28,5 +28,11 @@ module.exports = function(eleventyConfig) {
           typographer: true,
       }).use(markdownItAnchor, {})
   );
+
+  // Color syntax highlight
+  // const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
+  // module.exports = function(eleventyConfig) {
+  //   eleventyConfig.addPlugin(syntaxHighlight);
+  // };
 
 };
