@@ -1,5 +1,6 @@
 ---
 title: Beginning static site deployment with Netlify
+next: /lesson-2
 ---
 
 

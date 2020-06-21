@@ -1,5 +1,6 @@
 ---
 title: Using form
+previous: /lesson-8
 ---
 
 ## Netlify Form

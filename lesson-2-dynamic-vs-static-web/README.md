@@ -1,6 +1,10 @@
 ---
-title: Lecture 2—Dynamic vs. Static web
+title: Lesson 2—Dynamic vs. Static web
+previous: /lesson-1
+next: /lesson-3
 ---
+
+
 
 
 ## What are clients and servers?
