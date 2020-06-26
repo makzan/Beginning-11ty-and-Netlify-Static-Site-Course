@@ -25,6 +25,12 @@ img {
   max-width: 100%;
 }
 
+blockquote {
+  border-left: 4px solid gold;
+  margin: 0;
+  padding-left: 1em;
+}
+
 nav.main {
   text-align: center;
 }
