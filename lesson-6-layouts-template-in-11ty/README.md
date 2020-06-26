@@ -6,7 +6,7 @@ next: /lesson-7
 
 
 - Meta data
-- {{Content}}
+- {{"{{content"}}}}
 - Layout chain
 
 

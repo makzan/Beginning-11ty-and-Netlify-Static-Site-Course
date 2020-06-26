@@ -24,6 +24,8 @@ In part 2, we will extend the site by using Netlify hosting. It provides several
 Specifically, we will learn the following:
 
 
+<a href='/lesson-1/' class="call-to-action">Start reading</a>
+
 
 ## Part 1: 11ty static sites generator
 
@@ -61,6 +63,9 @@ In part 3, we extend the functionalities to include our custom server-side code.
 
 - [Lesson N—Comment system with utterances](#)
 - [Lesson N—Store 404 with Netlify functions and AirTable](#)
+
+
+<a href='/lesson-1/' class="call-to-action">Start reading</a>
 
 
 ## About Makzan

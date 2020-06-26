@@ -1,6 +1,5 @@
 /lesson-1/              /lesson-1-single-page-website/README
 /lesson-2/              /lesson-2-dynamic-vs-static-web/README
-/lesson-3/              /lesson-3-a-glimpse-on-api/README
 /lesson-3/              /lesson-3-hosting-static-site-with-netlify/README
 /lesson-4/              /lesson-4-connect-github-and-netlify/README
 /lesson-5/              /lesson-5-introducing-11ty/README
@@ -16,7 +15,6 @@
 
 /lesson-1-single-page-website/                 /lesson-1-single-page-website/README
 /lesson-2-dynamic-vs-static-web/               /lesson-2-dynamic-vs-static-web/README
-/lesson-3-a-glimpse-on-api/                    /lesson-3-a-glimpse-on-api/README
 /lesson-3-hosting-static-site-with-netlify/    /lesson-3-hosting-static-site-with-netlify/README
 /lesson-4-connect-github-and-netlify/          /lesson-4-connect-github-and-netlify/README
 /lesson-5-introducing-11ty/                    /lesson-5-introducing-11ty/README

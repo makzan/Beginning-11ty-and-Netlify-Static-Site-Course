@@ -46,6 +46,16 @@ main {
   }
 }
 
+.call-to-action {
+  display: inline-block;
+  background: linear-gradient(to right, yellow, gold);
+  border: 3px solid goldenrod;
+  border-radius: 5px;
+  padding: .5em 1em;
+  font-weight: bold;
+  text-decoration: none;
+}
+
 
 .callout {
   background: #ffffe5 linear-gradient(to right, #fffff5, #fffff9);
