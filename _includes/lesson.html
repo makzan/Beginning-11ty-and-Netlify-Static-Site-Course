@@ -2,6 +2,14 @@
 layout: layout
 ---
 
+<nav class="next-prev">
+  <p>
+    <a href='{{previous}}'>← Previous</a>
+    <a href='/README'>↑ Content</a>
+    <a href='{{next}}'>Next →</a>
+  </p>
+</nav>
+
 In this section, we will learn:
 
 {{ content | toc | safe }}

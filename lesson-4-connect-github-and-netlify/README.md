@@ -1,5 +1,5 @@
 ---
-title: Connect Github and Netlify
+title: Lesson 4—Connect Github and Netlify
 previous: /lesson-3
 next: /lesson-5
 ---

@@ -1,11 +1,12 @@
 ---
-title: Beginning static site deployment with Netlify
-next: /lesson-2
+title: Lesson 3—Hosting static site with Netlify
+previous: /lesson-2
+next: /lesson-4
 ---
 
 
 
-In this section, we try to deploy a simple one-page web page on Netlify by dragging the folder onto the deployment area.
+In this lesson, we try to deploy a simple one-page web page on Netlify by dragging the folder onto the deployment area.
 
 
 <iframe src="https://player.vimeo.com/video/399372750?color=fad749&byline=0&portrait=0" width="640" height="400" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
@@ -43,5 +44,4 @@ We can go beyond static by adding the following technologies:
 - https://learning-deck.netlify.app/
 - Web books.
 - mak.la Short URL redirection
-
 

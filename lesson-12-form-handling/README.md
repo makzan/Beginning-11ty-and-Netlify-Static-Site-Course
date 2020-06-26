@@ -1,6 +1,7 @@
 ---
-title: Lesson 9–Using form
-previous: /lesson-8
+title: Lesson 12–Form handling
+previous: /lesson-11
+next: /lesson-13
 ---
 
 ## We need server-side to handle form submissions.
