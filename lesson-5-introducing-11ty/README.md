@@ -8,6 +8,8 @@ next: /lesson-6
 - Build output to _site
 - Netlify setting to build 11ty
 
+<iframe src="https://slides.com/makzan/11ty-and-netlify-demo/embed?token=uBQ1Ocke&style=hidden" width="576" height="420" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
 
 ## Multiple files: Pain points
 
