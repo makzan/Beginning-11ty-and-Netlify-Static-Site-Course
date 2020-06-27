@@ -75,3 +75,7 @@ Thomas Mak, a.k.a. [Makzan](https://makzan.net), runs Web Technologies skill com
 Makzan also wrote 5 books, including Flash Multi-player World, HTML5 Games Development and Beginning Git Version Control.
 
 If you have any questions, please feel free to <a href="#" onclick="dashly.open()" data-turbolinks="false">ask me via chat</a>.
+
+## License
+
+This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/).
