@@ -57,7 +57,7 @@ Cons
 
 An alternative way is to build our own form handling via Lambda function.
 
-We will cover more on that later.
+We will cover more on that later when using Netlify functions. 
 
 
 ## Tackling spams
