@@ -76,6 +76,10 @@ Makzan also wrote 5 books, including Flash Multi-player World, HTML5 Games Devel
 
 If you have any questions, please feel free to <a href="#" onclick="dashly.open()" data-turbolinks="false">ask me via chat</a>.
 
+## Source
+
+The book source is hosted on [Github/makzan](https://github.com/makzan/Beginning-11ty-and-Netlify-Static-Site-Course).
+
 ## License
 
 This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/).
