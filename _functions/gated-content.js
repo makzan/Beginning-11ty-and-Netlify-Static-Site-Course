@@ -1,9 +1,12 @@
 exports.handler = (event, context, callback) => {
-  console.log(context)
+
+  console.log(context);
+
+  let user = context.clientContext.user;
 
   let body = "/"
 
-  if (context.clientContext.identity != undefined) {
+  if (user != undefined) {
     body = "/super-long-url-here/"
   }
 
