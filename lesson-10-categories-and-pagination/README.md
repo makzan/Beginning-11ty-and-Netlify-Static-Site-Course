@@ -5,6 +5,11 @@ next: /lesson-11
 ---
 
 
+
+
+## Code example of tagList collection
+
+
 ```js
 eleventyConfig.addCollection("tagList", function(collection) {
   let tagSet = new Set();
@@ -36,6 +41,7 @@ eleventyConfig.addCollection("tagList", function(collection) {
 });
 ```
 
+## HTML to list all tags
 
 
 ```markdown

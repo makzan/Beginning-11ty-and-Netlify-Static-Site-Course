@@ -1,7 +1,7 @@
 ---
-title: Lesson 13—Netlify identity
-previous: /lesson-12
-next: /lesson-14
+title: Lesson 14—Netlify identity
+previous: /lesson-13
+next: /lesson-15
 ---
 
 - Allow everyone to join

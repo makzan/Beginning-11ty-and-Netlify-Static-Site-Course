@@ -1,10 +1,11 @@
 ---
 title: Lesson 8—Passthrough copy with .eleventy.js
+description: "11ty only process know file-type by default. We need to setup pass-through copy to copy asset folders and extra files into the _site output folder."
 previous: /lesson-7
 next: /lesson-9
 ---
 
-`.eleventy.js` file is the configuration file for eleventy. It is a JavaScript file becasue Eleventy is built on JavaScript.
+
 
 
 
@@ -32,12 +33,15 @@ module.exports = function(eleventyConfig) {
 
 ## Copying files from sub-directory to root folders
 
+We can configure the pass-through copy to copy files into a different path. For example, the following code snippet tells 11ty to copy all files inside `_misc_root_files` folder into the root `_site` output folder.
 
 ```js
-// Folders to copy into output.
-eleventyConfig.addPassthroughCopy("images");
-eleventyConfig.addPassthroughCopy("css");
-eleventyConfig.addPassthroughCopy("_redirects");
-eleventyConfig.addPassthroughCopy("wp-content");
 eleventyConfig.addPassthroughCopy({ "_misc_root_files": "/" });
 ```
+
+## Summary
+
+In this lesson, we learnt that 11ty only process know file types. For example, `.html` and `.md` files. But for images and CSS files, 11ty won’t handle it by default and thus we won’t see those files in `_site` output folder.
+
+`addPassthroughCopy` configuration function is designed for us to specific which folders or files we need 11ty to copy into the output folder.
+
