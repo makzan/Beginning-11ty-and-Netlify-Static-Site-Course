@@ -1,9 +1,11 @@
 ---
-title: Lesson 11—Using _redirects
+title: "Lesson 11—Using _redirects"
 previous: /lesson-10
 next: /lesson-12
 ---
 
+
+## Several types of redirection options
 
 - One to one
 - Many to many
@@ -13,10 +15,11 @@ next: /lesson-12
 
 Here is an example to redirects all parts to index.html with 200 success status. The success status will keep the pa try so that we can further process it with JavaScript. This is also how the inQRCode.com works. 
 
-__redirects_ file:
+__redirects_ file of inQRCode.com:
 ```
 /* /index.html 200
 ```
+
 
 ## Passthrough copy
 
@@ -35,5 +38,6 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("_redirects");
 };
 ```
+
 
 

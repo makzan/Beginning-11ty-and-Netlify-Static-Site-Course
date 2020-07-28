@@ -9,11 +9,8 @@ next: /lesson-4
 In this lesson, we try to deploy a simple one-page web page on Netlify by dragging the folder onto the deployment area.
 
 
-<iframe src="https://player.vimeo.com/video/399372750?color=fad749&byline=0&portrait=0" width="640" height="400" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-<p><a href="https://vimeo.com/399372750">Introducing Netlify</a> from <a href="https://vimeo.com/makzan">Thomas Mak</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
-
-[Download PDF](/lecture-1-introducing-netlify/deploying-with-netlify.pdf)
+[Download PDF](/lesson-3-hosting-static-site-with-netlify/deploying-with-netlify.pdf)
 
 
 ---
