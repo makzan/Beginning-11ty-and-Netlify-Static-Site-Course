@@ -28,6 +28,21 @@ Sometimes, we may find that markdown formatting is not enough. We can write HTML
 When we write in plain text, markdown formatting allows us to stay in the flow without distraction by the Markup syntax. 
 
 
+## Configuring 11ty with .eleventy.js file
+
+
+To get started configuring eleventy, First we need to create a JavaScript file named `.eleventy.js` under the root project folder.
+
+```js
+module.exports = function(eleventyConfig) {
+}
+```
+
+
+We will put all the configurations inside this function.
+
+`.eleventy.js` is a JavaScript file becasue Eleventy is built on JavaScript.
+
 
 ## Adding filters to transform output rendering
 

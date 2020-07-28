@@ -67,15 +67,4 @@ Content goes here.
 ```
 
 
-## Configuring 11ty with .eleventy.js file
 
-
-To get started configuring eleventy, First we need to create a JavaScript file named `.eleventy.js` under the root project folder.
-
-```js
-module.exports = function(eleventyConfig) {
-}
-```
-
-
-We will put all the configurations inside this function.

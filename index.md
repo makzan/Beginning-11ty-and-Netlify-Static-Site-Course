@@ -14,7 +14,7 @@ There are three components in JAM Stack, Markup, JavaScript and API.
 
 
 <figure>
-  <img src='/markup-javascript-api.png' alt='JAM stack'>
+  <img src='/jam-and-beyond.png' alt='JAM stack and beyond'>
   <figcaption>JAM Stack</figcaption>
 </figure>
 

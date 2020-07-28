@@ -10,7 +10,7 @@ In this course, we learn JAM stack by using [11ty](https://11ty.dev) and [Netlif
 There are three components in JAM Stack, Markup, JavaScript and API.
 
 <figure>
-  <img src='/markup-javascript-api.png' alt='JAM stack'>
+  <img src='/jam-and-beyond.png' alt='JAM stack and beyond'>
   <figcaption>JAM Stack</figcaption>
 </figure>
 
@@ -46,10 +46,11 @@ First, we use Eleventy to create a static site.
 
 Netlify provides some essential server-side functionalities to make our web site dynamic.
 
-- [Lesson 11—Using _redirects](/lesson-11-using-redirects/)
-- [Lesson 12—Form handling](/lesson-9-using-form/)
-- [Lesson 13—Netlify Identity](/lesson-13-netlify-identity/)
-- [Lesson 14—Netlify functions](/lesson-14-netlify-functinos/)
+- [Lesson 11—Netlify hosting](/lesson-11-netlify-hosting/)
+- [Lesson 12—Using _redirects](/lesson-12-using-redirects/)
+- [Lesson 13—Form handling](/lesson-13-form-handling/)
+- [Lesson 14—Netlify Identity](/lesson-14-netlify-identity/)
+- [Lesson 15—Netlify functions](/lesson-15-netlify-functinos/)
 
 
 ## Part 3: JavaScript and APIs

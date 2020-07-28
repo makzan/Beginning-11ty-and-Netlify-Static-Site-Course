@@ -8,10 +8,12 @@
 /lesson-8/              /lesson-8-pass-through-copy-eleventy-js/README
 /lesson-9/              /lesson-9-data-and-collection/README
 /lesson-10/             /lesson-10-categories-and-pagination/README
-/lesson-11/             /lesson-11-using-redirects/README
-/lesson-12/             /lesson-12-form-handling/README
-/lesson-13/             /lesson-13-netlify-identity/README
-/lesson-14/             /lesson-14-netlify-functinos/README
+/lesson-11/				/lesson-11-netlify-hosting/README
+/lesson-12/				/lesson-12-using-redirects/README
+/lesson-13/				/lesson-13-form-handling/README
+/lesson-14/				/lesson-14-netlify-identity/README
+/lesson-15/				/lesson-15-netlify-functinos/README
+
 
 /lesson-1-single-page-website/                 /lesson-1-single-page-website/README
 /lesson-2-dynamic-vs-static-web/               /lesson-2-dynamic-vs-static-web/README
@@ -23,7 +25,8 @@
 /lesson-8-pass-through-copy-eleventy-js/       /lesson-8-pass-through-copy-eleventy-js/README
 /lesson-9-data-and-collection/                 /lesson-9-data-and-collection/README
 /lesson-10-categories-and-pagination/          /lesson-10-categories-and-pagination/README
-/lesson-11-using-redirects/                    /lesson-11-using-redirects/README
-/lesson-12-form-handling/                      /lesson-12-form-handling/README
-/lesson-13-netlify-identity/                   /lesson-13-netlify-identity/README
-/lesson-14-netlify-functinos/                  /lesson-14-netlify-functinos/README
+/lesson-11-netlify-hosting/					   /lesson-11-netlify-hosting/README
+/lesson-12-using-redirects/					   /lesson-12-using-redirects/README
+/lesson-13-form-handling/					   /lesson-13-form-handling/README
+/lesson-14-netlify-identity/				   /lesson-14-netlify-identity/README
+/lesson-15-netlify-functinos/				   /lesson-15-netlify-functinos/README
