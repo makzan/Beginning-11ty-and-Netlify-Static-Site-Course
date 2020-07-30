@@ -1,17 +1,30 @@
 ---
-title: Lesson 8—Passthrough copy with .eleventy.js
-description: "11ty only process know file-type by default. We need to setup pass-through copy to copy asset folders and extra files into the _site output folder."
+title: Lesson 8—Configuration with .eleventy.js
+description: "We can configure 11ty with `.eleventy.js` file."
 previous: /lesson-7
 next: /lesson-9
 ---
 
+## What is .eleventy.js file?
+
+`.eleventy.js` file is the configuration file for eleventy. It is a JavaScript file becasue Eleventy is built on JavaScript.
+
+To get started configuring eleventy, First we need to create a JavaScript file named `.eleventy.js` under the root project folder.
+
+```js
+module.exports = function(eleventyConfig) {
+}
+```
 
 
 
+We will put all the configurations inside this function.
 
+`.eleventy.js` is a JavaScript file becasue Eleventy is built on JavaScript.
 
 
 ## Configuring addPassthroughCopy
+
 
 
 One common usage is to copy the `css` folder and the `images` folder to the eleventy output.
@@ -38,6 +51,47 @@ We can configure the pass-through copy to copy files into a different path. For 
 ```js
 eleventyConfig.addPassthroughCopy({ "_misc_root_files": "/" });
 ```
+
+
+
+
+## Adding filters to transform output rendering
+
+Let’s say we have a collection of task data. We want to display the date and the title of the task. The date is a full date-time string which might be too long for display. We want the `YYYY-MM-DD` format. We can create a custom filter to transform the string via JavaScript.
+
+```js
+module.exports = function(eleventyConfig) {
+
+  eleventyConfig.addFilter("toISOString", function(date) {
+    return date.toISOString().split('T')[0];
+  });
+
+};
+```
+
+Here is how we use the `toISOString` when listing tasks.
+
+```html
+<h1>All Tasks</h1>
+<ul>
+{% for task in collections.task reversed %}
+  <li class="is-done-{{task.data.is_done}}">
+    <h2>
+      {{ task.date toISOString }}
+      {{ task.data.title }}
+    </h2>
+    {{ task.templateContent }}
+  </li>
+{% endfor %}
+</ul>
+```
+
+
+
+
+
+
+
 
 ## Summary
 
