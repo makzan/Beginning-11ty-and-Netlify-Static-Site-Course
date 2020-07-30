@@ -42,6 +42,8 @@ layout: layout
 
 ## Deep merge
 
+![deep merge explain](/lesson-9-data-and-collection/deep-merge.png)
+
 We can have default data defined in a folder via `folder_name.json`. Depending on the characteristics of the data type in the folder, we may either want an individual item to replace this default data or merge the data set.
 
 ```js

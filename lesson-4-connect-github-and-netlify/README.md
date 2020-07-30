@@ -4,13 +4,6 @@ previous: /lesson-3
 next: /lesson-5
 ---
 
-## Benefits of connecting Github and Netlify
-
-By connecting Netlify with Github account, we can create continous deployment. Whenever the Github repository get updated, Netlify deploys the website automatically.
-
-
-<iframe src="https://slides.com/makzan/connect-github-and-netlify/embed" width="576" height="420" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-
 
 ## What is Github?
 
@@ -25,6 +18,20 @@ By connecting Netlify with Github account, we can create continous deployment. W
 
 
 
+## Benefits of connecting Github and Netlify
+
+By connecting Netlify with Github account, we can create continous deployment. Whenever the Github repository get updated, Netlify deploys the website automatically.
+
+
+<iframe src="https://slides.com/makzan/connect-github-and-netlify/embed" width="576" height="420" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+## Demonstration on connecting Github and Netlify
+
+Here is a video demonstrating the connection.
+
+<iframe src="https://player.vimeo.com/video/443118457" width="640" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
+
 
 ## Further deployment setting
 
@@ -33,3 +40,5 @@ Which branch to trigger deployment?
 What command to run to build the site outputs?
 
 Which output folder to use?
+
+We don’t need these configurations right now. It is simply a single file. We will need to configure this when we use static site generator in later lesson.

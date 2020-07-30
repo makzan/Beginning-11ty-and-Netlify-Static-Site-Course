@@ -215,10 +215,13 @@ What if we need some server functionalities while serving the website statically
 
 Take Netlify as an example, they provide logins, forms, and functions,
 
-https://www.netlify.com/products/forms/
-https://www.netlify.com/products/functions/
-https://docs.netlify.com/visitor-access/identity/
-Optional: The deep technical way to create forms Amazon Web Service.
+- https://www.netlify.com/products/forms/
+- https://www.netlify.com/products/functions/
+- https://docs.netlify.com/visitor-access/identity/
+
+We will learn how to use them from lesson 11.
+
+
 
 <div class="question callout">
 
@@ -265,12 +268,47 @@ https://css-tricks.com/creating-an-editable-site-with-google-sheets-and-eleventy
 The TableTop.js converts a published Google Sheet into JSON API for the website to fetch.
 
 
+<div class="checkpoint callout">
+
+  Now that we have learned static sites can be mutile-pages with static site generators. These files are static but the functionalities can be dynamic through JavaScript. We can further enhance our “static” site with “server-side” APIs. This is called **JAM Stack**.
+
+</div>
+
+
+
 ## JAM Stack
 
-We call this new kind of static website with functionaries JAM Stack, which stands for JavaScript, API, and Markup.
+We call this new kind of static website with functionaries JAM Stack, which stands for **JavaScript**, **API**, and **Markup**.
 
 https://jamstack.org/
 
 Also the JAMStack introduction by Netlify.
 
 https://www.netlify.com/jamstack/
+
+Here is a slide comparing the JAM stack approach and traditional server-side rendering approach.
+
+<iframe src="https://slides.com/makzan/a-glimpse-on-api/embed" width="576" height="420" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+In short:
+
+
+Pro for Traditional
+
+- Mature frameworks with learning resources.
+ 
+ 
+Con for Traditional
+
+- Page rendering and change responses is slower
+
+
+Pro for JAM Stack
+
+- Static files = fast loading.
+- JavaScript rendering = User interface response fast on changes.
+ 
+Con for JAM Stack
+
+- A new mindset to plan
+- Decoupling may be harder to maintain.
