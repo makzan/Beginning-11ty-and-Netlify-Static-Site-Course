@@ -50,7 +50,7 @@ Netlify provides some essential server-side functionalities to make our web site
 - [Lesson 12—Using _redirects](/lesson-12-using-redirects/)
 - [Lesson 13—Form handling](/lesson-13-form-handling/)
 - [Lesson 14—Netlify Identity](/lesson-14-netlify-identity/)
-- [Lesson 15—Netlify functions](/lesson-15-netlify-functinos/)
+- [Lesson 15—Netlify functions](/lesson-15-netlify-functions/)
 
 
 ## Part 3: JavaScript and APIs
